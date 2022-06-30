@@ -1,0 +1,63 @@
+BÀI 1 :*****
+ BEGIN
+     INPUT match is A
+     INPUT physics is B
+     INPUT chemistrypoml is C 
+        AVEGER=(A+B+C)/3
+      DISPLAY AVEGER
+END
+BÀI 2 :*****
+ BEGIN 
+     INPUT dollar is A
+     INPUT vnd    is B 
+     INPUT  $1=23.000
+      IF A change B 
+     B=A*C
+       DISPLAY B
+END 
+BÀI 3:****
+   INPUT A,B,C
+     IF A>B AND A>C 
+       DISPLAY A max
+     END IF 
+     ELSE B>C
+       DISPLAY B max
+     ELSE C>B
+       DISPLAY C max
+     END IF
+END
+BÀI 4:*****
+ BEGIN
+    INPUT A,B,C,D,E,F
+       A is   =>75
+       B is 60<= AND <75
+       C is 45<= AND <60
+       D is 35<= AND <45
+       E is <35
+       F is số điểm sinh viên 
+     IF F=>75
+        DISPLAY A
+      ELSE F 60<= AND <75
+        DISPLAY B 
+      ELSE F 45<= AND <60
+        DISPLAY C
+      ELSE F35<= AND <45
+        DISPLAY D 
+      ELSE <35
+        DISPLAY E
+      END IF
+END 
+BÀI 5 :*******
+ BEGIN 
+      INPUT N(a1,a2,...ai..) (i<n)
+       a1=MAX
+       i = 2
+     WHILE (i<=n)
+     DO 
+           IF (ai>MAX) then MAX=ai
+           END IF
+         i=i+1
+     END DO 
+    OUTPUT MAX 
+END
+   
